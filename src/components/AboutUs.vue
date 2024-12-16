@@ -119,11 +119,60 @@
 
 
 
-    <!-- Footer Section -->
-    <footer class="bg-black text-white text-center py-8">
-      <p>&copy; 2024 Elite Footprints. All rights reserved.</p>
-    </footer>
+    <!--Footer-->
+    <footer class="bg-black text-white py-8">
+      <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 opacity-80 text-sm">
+          <!-- ABOUT ELITE FOOTPRINTS -->
+          <div>
+            <h3 class="font-semibold mb-3">ABOUT ELITE FOOTPRINTS</h3>
+            <p>
+              At Elite Footprints, we take pride in crafting exceptional footwear that blends style, comfort, and durability. Our mission is to provide you with shoes that leave an unforgettable mark on the world.
+            </p>
+            <div class="flex space-x-3 mt-4">
+              <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
 
+          <!-- CUSTOMER CARE -->
+          <div>
+            <h3 class="font-semibold mb-3">CUSTOMER CARE</h3>
+            <ul class="space-y-2">
+              <li>Contact</li>
+              <li>Returns/Exchange</li>
+              <li>Gift Voucher</li>
+              <li>Wishlist</li>
+              <li>Special</li>
+              <li>Customer Services</li>
+              <li>Site Maps</li>
+            </ul>
+          </div>
+
+          <!-- INFORMATION -->
+          <div>
+            <h3 class="font-semibold mb-3">INFORMATION</h3>
+            <ul class="space-y-2">
+              <li>About Us</li>
+              <li>Delivery Information</li>
+              <li>Privacy Policy</li>
+              <li>Support</li>
+              <li>Order Tracking</li>
+            </ul>
+          </div>
+
+          <!-- CONTACT INFORMATION -->
+          <div>
+            <h3 class="font-semibold mb-3">CONTACT INFORMATION</h3>
+            <p>123 Street, Butuan City, Philippines</p>
+            <p class="mt-2">+1235 2355 98</p>
+            <p class="mt-2">cats@elitefootprints.com</p>
+            <p class="mt-2">elitefootprints.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
